@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.MoreLessFragment">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:background="#e268ac"
+        android:text="@string/title_more_less"
+        android:layout_height="100dp"/>
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="277dp">
+
+        <ImageView
+            android:layout_width="170dp"
+            android:id="@+id/id_moreless_image_card1"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:layout_width="170dp"
+            android:id="@+id/id_moreless_image_card2"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="289dp"
+        android:id="@+id/id_moreless_button_restart"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="#6d115a"
+        android:text="continue for $50"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="289dp"
+        android:id="@+id/id_moreless_button_start"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="#6d115a"
+        android:text="start game"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:id="@+id/id_moreless_title_message"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="choose:will your card be bigger or smaller"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="350dp"
+        android:id="@+id/id_moreless_title_record"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="your record: 0"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+    <TextView
+        android:layout_width="300dp"
+        android:id="@+id/id_moreless_correct_answers"
+        android:text="correct: 11, my cash: 0$"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_height="70dp"/>
+    <LinearLayout
+        android:layout_width="350dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_height="90dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="170dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/id_moreless_button_smaller"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:textSize="18sp"
+            android:text="my card will be smaller"
+            android:background="#6d115a"
+            android:layout_height="match_parent"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="170dp"
+            android:visibility="gone"
+            android:layout_marginTop="20dp"
+            android:id="@+id/id_moreless_button_bigger"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:text="my card will be bigger"
+            android:textSize="18sp"
+            android:background="#6d115a"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="free money"
+        android:id="@+id/id_menu_lottery"
+        android:icon="@drawable/emblema_dollar"/>
+
+    <item
+        android:title="guess card"
+        android:id="@+id/id_menu_guess_card"
+        android:icon="@drawable/cards"/>
+
+    <item
+        android:title="card game"
+        android:id="@+id/id_menu_card_game"
+        android:icon="@drawable/emblema_moreless"/>
+
+
+</menu>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.GuessTheKardFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="@string/title_guess_card"
+        android:gravity="center"
+        android:background="#e268ac"
+        android:layout_height="100dp"/>
+
+    <ImageView
+        android:id="@+id/id_guess_image_card"
+        android:layout_width="291dp"
+        android:layout_height="307dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="289dp"
+        android:id="@+id/id_guess_button_start"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="#6d115a"
+        android:text="start game"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/id_guess_title_message"
+        android:layout_width="289dp"
+        android:layout_height="86dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="choose the suit of the playing card"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/id_guess_title_record"
+        android:layout_width="289dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="your record: 0"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/id_guess_correct_answers"
+        android:layout_width="381dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="correct: 0 , my cash:0$"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:visibility="gone" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:id="@+id/id_guess_image_kresti"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:id="@+id/id_guess_image_chervi"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:id="@+id/id_guess_image_piki"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:id="@+id/id_guess_image_bubni"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

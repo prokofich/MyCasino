@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".view.LotteryFragment">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:background="#e268ac"
+        android:text="@string/title_lottery"
+        android:layout_height="100dp"/>
+
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="120dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/meshok_cash"
+            android:id="@+id/id_lot_image1"
+            android:layout_width="120dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:layout_height="match_parent"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/meshok_cash"
+            android:layout_width="120dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:id="@+id/id_lot_image2"
+            android:layout_height="match_parent"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/meshok_cash"
+            android:layout_width="120dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:id="@+id/id_lot_image3"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="120dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/meshok_cash"
+            android:layout_width="120dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:id="@+id/id_lot_image4"
+            android:layout_height="match_parent"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/meshok_cash"
+            android:layout_width="120dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:id="@+id/id_lot_image5"
+            android:layout_height="match_parent"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/meshok_cash"
+            android:layout_width="120dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:id="@+id/id_lot_image6"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="120dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/meshok_cash"
+            android:layout_width="120dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:id="@+id/id_lot_image7"
+            android:layout_height="match_parent"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/meshok_cash"
+            android:layout_width="120dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:id="@+id/id_lot_image8"
+            android:layout_height="match_parent"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/meshok_cash"
+            android:layout_width="120dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:id="@+id/id_lot_image9"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="360dp"
+        android:id="@+id/id_lot_message"
+        android:text="click on any bag"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="360dp"
+        android:id="@+id/id_lot_title_cash"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="your money:0$"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+
+
+
+</LinearLayout>

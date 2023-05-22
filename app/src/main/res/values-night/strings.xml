@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_lottery">Open cases every day to earn a couple hundred cash for free</string>
+    <string name="title_guess_card">Guess the suit of the card. For each card you guess, you will receive $ 5</string>
+    <string name="title_more_less">Choose the correct answer and get $5 for it. An attempt to continue will cost $50</string>
+</resources>

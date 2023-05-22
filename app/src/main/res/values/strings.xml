@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyCasino</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_lottery">Open the bags every day to earn a couple hundred in cash for free</string>
+    <string name="title_guess_card">Guess the suit of the card. For each card you guess, you will receive $ 5</string>
+    <string name="title_more_less">Choose the correct answer and get $5 for it. An attempt to continue will cost $50</string>
+</resources>
